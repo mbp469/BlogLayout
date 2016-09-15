@@ -16,13 +16,14 @@ background-image:
 background-size: cover;
 background-position: center;
 height: 30%;
+margin: 0 3%;
 }
 
 .round-icon {
   border-radius: 50%;
-  position: absolute;
-  top: 156px;
-  left: 101px;
+  position: relative;
+  top: 147px;
+  left: 182px;
   background-color: #333;
   height: 60px;
   width: 60px;
@@ -43,7 +44,7 @@ aside {
   color: lightgray;
   float: left;
   font-size: .75rem;
-  padding: 3% 4% 9% 13%;
+  padding: 3% 9% 9% 18%;
   width: 35%;
 
 }
@@ -68,7 +69,7 @@ main
 */
 main {
   display: inline-block;
-  width: 60%;
+  width: 41%;
   overflow: hidden;
 }
 
@@ -82,9 +83,32 @@ main p {
   font-size: 0.75rem;
 }
 
+  #picture-container {
+  width: 74%;
+  height: 29%;
+  background-repeat: no-repeat;
+  background-image: url(https://farm3.staticflickr.com/2941/15105612447_bc50a673f7.jpg);
+}
+
+
 
 
 span.iron-yard {
   font-style: italic;
   color: blue;
+}
+
+/*
+follow-container
+*/
+
+#follow-container {
+  width: 200px;
+  height: 60px;
+  background: lightblue;
+  border: 2px dashed darkblue;
+  position: relative;
+  top: 298px;
+  left: -21px;
+  float: right;
 }
