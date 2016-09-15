@@ -112,3 +112,7 @@ follow-container
   left: -21px;
   float: right;
 }
+
+#follow-container:hover {
+  visibility: hidden;
+}
