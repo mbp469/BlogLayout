@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+header
+*/
+header {
+background-image:
+  url(https://scontent.xx.fbcdn.net/t31.0-8/11021355_898653110155763_923150969851337795_o.jpg);
+background-size: cover;
+background-position: center;
+height: 30%;
+}
+
+.round-icon {
+  border-radius: 50%;
+  position: absolute;
+  top: 156px;
+  left: 101px;
+  background-color: #333;
+  height: 60px;
+  width: 60px;
+  border: 3px solid #fff;
+}
+
+/*
+aside
+*/
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+aside {
+  font-family: sans-serif;
+  color: gray;
+  float: left;
+  font-size: .75rem;
+  padding: 3% 4% 9% 13%;
+  width: 35%;
+}
+
+aside p {
+  padding-bottom: 8px;
+  margin-bottom: 31px;
+  border-bottom: 1px solid lightgray;
+}
+
+aside label {
+  padding: px;
+}
+
+/*
+main
+*/
+
+span.iron-yard {
+  font-style: italic;
+  color: blue;
+}
